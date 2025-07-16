@@ -1,0 +1,98 @@
+*{
+    cursor: url(cursor.png), auto;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    background: transparent;
+    width: 65%;
+    height: 60px;
+    padding: 15px;
+    /* border: 2px solid red; */
+    border-radius: 100px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 40px aqua, 0 0 10px aqua, 0 0 20px aquamarine;
+    
+}
+#links {
+    display: flex;
+    gap: 100px;
+    font-size: 120%;
+}
+#links a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+#links a:hover {
+    
+    text-shadow: 0 0 40px red, 0 0 10px red, 0 0 20px rgb(220, 20, 60);
+}
+
+    .contact-container {
+      max-width: 600px;
+      margin: 100px auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 30px cyan, 0 0 60px aquamarine;
+    }
+
+    .contact-container h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #00fff2;
+      text-shadow: 0 0 20px aqua;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+      color: #90ee90;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid #00fff2;
+      border-radius: 10px;
+      color: white;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    input:focus, textarea:focus {
+      box-shadow: 0 0 15px #00fff2;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00fff2;
+    }
+
+
